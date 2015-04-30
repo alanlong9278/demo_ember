@@ -4,6 +4,7 @@ App.FormCustomerView = Ember.View.extend({
     tagName: 'tr',
     showDetail: function() {
         this.get("parentView").showDetail();
+        this.get("parentView").set("customer", this.get("customer").copy());
     }
 
 })
