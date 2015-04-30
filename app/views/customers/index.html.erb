@@ -1,0 +1,22 @@
+
+
+<script type="text/x-handlebars">
+ <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Customers</a>
+
+        </div>
+
+      </div>
+    </nav>
+    <div id="main" class="container">
+        {{view App.IndexCustomersView}}
+    </div>
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        App.customersController.loadAll(<%= @customers.to_json.html_safe %>);
+    });
+</script>

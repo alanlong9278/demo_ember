@@ -1,0 +1,30 @@
+    <div class="row">
+      <div class="col-md-4">
+        <table class='table'>
+          <thead>
+            <tr>
+                <th>CustomerID</th>
+                <th>CompanyName</th>
+            </tr>
+          </thead>
+           {{#each customers}}
+              <tr>
+                  <td>
+                      {{this.CustomerID}}
+                  </td>
+                  <td>
+                      {{this.CompanyName}}
+                  </td>
+                  <td>
+
+
+                  </td>
+              <tr>
+            {{/each}}
+        </table>
+
+      </div>
+      <div class="col-md-8">
+        {{view App.ShowCustomerView customerBinding = "customers"}}
+      </div>
+    </div>
