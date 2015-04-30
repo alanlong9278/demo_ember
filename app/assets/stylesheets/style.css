@@ -9,3 +9,10 @@ body{
 .active{
 	font-weight: bold;
 }
+#customer_detail { padding-top: 50px;}
+.title { text-align: right; width: 200px;}
+#detail tr td {
+    font-size: 18px;
+    padding-top: 10px;
+
+}

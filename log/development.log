@@ -20801,3 +20801,4291 @@ Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:22:15 +0800
 Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:47:24 +0800
+Connecting to database specified by database.yml
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (185.0ms)
+Compiled app/templates/customers/index.js  (2ms)  (pid 9140)
+Compiled application.js  (41ms)  (pid 9140)
+Completed 200 OK in 479ms (Views: 446.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:25 +0800
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:25 +0800
+Served asset /normalize.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:25 +0800
+Served asset /bootstrap.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:25 +0800
+Served asset /application.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /contacts.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /customers.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /jquery.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /vendor/ember.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/app.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/route.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/models/customer.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/templates/customers/index.js - 200 OK (7ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /application.js - 304 Not Modified (33ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (150.0ms)
+Completed 200 OK in 191ms (Views: 178.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /contacts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/models/customer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:47:26 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:49:09 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (184.0ms)
+Compiled bootstrap.css  (3ms)  (pid 9140)
+Compiled application.css  (6ms)  (pid 9140)
+Completed 200 OK in 340ms (Views: 323.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /bootstrap.css - 200 OK (9ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /vendor/ember.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:10 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (184.0ms)
+Compiled bootstrap.css  (2ms)  (pid 9140)
+Compiled application.css  (7ms)  (pid 9140)
+Completed 200 OK in 373ms (Views: 356.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /application.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /bootstrap.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/route.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:32 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:49:55 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (153.0ms)
+Compiled bootstrap.css  (2ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Completed 200 OK in 287ms (Views: 274.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:55 +0800
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /bootstrap.css - 200 OK (6ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:49:56 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:51:10 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (4.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (158.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled bootstrap.css  (0ms)  (pid 9140)
+Compiled application.css  (6ms)  (pid 9140)
+Completed 200 OK in 350ms (Views: 333.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:10 +0800
+Served asset /style.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:10 +0800
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /bootstrap.css - 200 OK (8ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:51:11 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:52:46 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (158.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Compiled app/templates/customers/show.js  (0ms)  (pid 9140)
+Compiled application.js  (27ms)  (pid 9140)
+Completed 200 OK in 474ms (Views: 460.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /style.css - 200 OK (5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /app/templates/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:52:47 +0800
+Served asset /application.js - 304 Not Modified (51ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (136.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled application.css  (5ms)  (pid 9140)
+Completed 200 OK in 287ms (Views: 276.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /style.css - 200 OK (8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:53:42 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:58:26 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (149.0ms)
+Compiled app/templates/customers/show.js  (0ms)  (pid 9140)
+Compiled application.js  (26ms)  (pid 9140)
+Completed 200 OK in 368ms (Views: 353.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/models/customer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /app/templates/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:58:27 +0800
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:59:39 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (150.0ms)
+Compiled style.css  (1ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Compiled app/templates/customers/show.js  (1ms)  (pid 9140)
+Compiled application.js  (26ms)  (pid 9140)
+Completed 200 OK in 465ms (Views: 449.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /style.css - 200 OK (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /application.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /app/templates/customers/show.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:40 +0800
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 11:59:52 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (159.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Completed 200 OK in 313ms (Views: 300.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /style.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /vendor/ember.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 11:59:53 +0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:01:00 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (158.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Completed 200 OK in 293ms (Views: 276.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /application.css - 304 Not Modified (49ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /style.css - 200 OK (17ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:01:01 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (164.0ms)
+Compiled style.css  (0ms)  (pid 9140)
+Compiled application.css  (5ms)  (pid 9140)
+Completed 200 OK in 298ms (Views: 283.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Served asset /style.css - 200 OK (23ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:03 +0800
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:04 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:04:20 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (158.0ms)
+Compiled style.css  (1ms)  (pid 9140)
+Compiled application.css  (4ms)  (pid 9140)
+Completed 200 OK in 299ms (Views: 281.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /style.css - 200 OK (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:04:21 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:28:14 +0800
+Connecting to database specified by database.yml
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (186.0ms)
+Compiled app/views/customers/index.js  (1ms)  (pid 8748)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8748)
+Compiled application.js  (44ms)  (pid 8748)
+Completed 200 OK in 505ms (Views: 471.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /bootstrap.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /normalize.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /customers.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /jquery.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:15 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /vendor/ember.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/app.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/route.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/models/customer.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/views/customers/index.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/templates/customers/index.js - 200 OK (3ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:28:16 +0800
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (155.0ms)
+Compiled app/templates/customers/index.js  (1ms)  (pid 8748)
+Compiled application.js  (25ms)  (pid 8748)
+Completed 200 OK in 373ms (Views: 356.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:10 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /app/templates/customers/index.js - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:11 +0800
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (181.0ms)
+Completed 200 OK in 220ms (Views: 206.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:29:47 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:29:59 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (155.0ms)
+Completed 200 OK in 226ms (Views: 185.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:30:00 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:42:41 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (127.0ms)
+Compiled app/views/customers/index.js  (0ms)  (pid 8748)
+Compiled application.js  (23ms)  (pid 8748)
+Completed 200 OK in 318ms (Views: 305.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/views/customers/index.js - 200 OK (5ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:42:42 +0800
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:44:21 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (170.0ms)
+Compiled app/templates/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (26ms)  (pid 8748)
+Completed 200 OK in 418ms (Views: 401.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/route.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/templates/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:44:22 +0800
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (151.0ms)
+Compiled app/views/customers/show.js  (0ms)  (pid 8748)
+Compiled app/templates/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (26ms)  (pid 8748)
+Completed 200 OK in 380ms (Views: 366.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/views/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:17 +0800
+Served asset /app/templates/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:18 +0800
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (163.0ms)
+Compiled app/views/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (27ms)  (pid 8748)
+Completed 200 OK in 374ms (Views: 356.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/route.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/views/customers/show.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:46:59 +0800
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (155.0ms)
+Compiled app/views/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (26ms)  (pid 8748)
+Completed 200 OK in 356ms (Views: 342.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:20 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /app/views/customers/show.js - 200 OK (6ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:21 +0800
+Served asset /application.js - 304 Not Modified (58ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (157.0ms)
+Compiled app/templates/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (26ms)  (pid 8748)
+Completed 200 OK in 381ms (Views: 362.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /app/templates/customers/show.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:47:59 +0800
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (155.0ms)
+Compiled app/views/customers/show.js  (0ms)  (pid 8748)
+Compiled application.js  (25ms)  (pid 8748)
+Completed 200 OK in 356ms (Views: 344.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/views/customers/show.js - 200 OK (10ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:48:42 +0800
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (162.0ms)
+Completed 200 OK in 222ms (Views: 206.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 12:55:49 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 12:59:59 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (156.0ms)
+Compiled app/views/customers/index.js  (0ms)  (pid 8748)
+Compiled app/views/customers/show.js  (0ms)  (pid 8748)
+Compiled app/templates/customers/show.js  (2ms)  (pid 8748)
+Compiled application.js  (26ms)  (pid 8748)
+Completed 200 OK in 401ms (Views: 385.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/views/customers/index.js - 200 OK (5ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/views/customers/show.js - 200 OK (22ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /app/templates/customers/show.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:00:00 +0800
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:07:46 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (162.0ms)
+Compiled app/views/customers/show.js  (17ms)  (pid 8748)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8748)
+Compiled application.js  (28ms)  (pid 8748)
+Completed 200 OK in 383ms (Views: 364.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/views/customers/show.js - 200 OK (7ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/templates/customers/index.js - 200 OK (22ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:07:47 +0800
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:08:01 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (164.0ms)
+Completed 200 OK in 204ms (Views: 189.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:01 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:01 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:01 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:01 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/models/customer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:02 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (153.0ms)
+Completed 200 OK in 193ms (Views: 176.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:04 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:05 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:05 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:05 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:05 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:08:18 +0800
+Connecting to database specified by database.yml
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (167.0ms)
+Completed 200 OK in 401ms (Views: 346.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:19 +0800
+Served asset /bootstrap.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:19 +0800
+Served asset /style.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /normalize.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /customers.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /vendor/ember.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/app.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/route.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/models/customer.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:20 +0800
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (157.0ms)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8292)
+Compiled application.js  (26ms)  (pid 8292)
+Completed 200 OK in 380ms (Views: 360.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /app/templates/customers/index.js - 200 OK (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:34 +0800
+Served asset /application.js - 304 Not Modified (52ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:08:55 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (167.0ms)
+Compiled app/views/customers/show.js  (0ms)  (pid 8292)
+Compiled application.js  (26ms)  (pid 8292)
+Completed 200 OK in 369ms (Views: 349.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/views/customers/show.js - 200 OK (5ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:08:56 +0800
+Served asset /application.js - 304 Not Modified (52ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 13:09:11 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (160.0ms)
+Compiled app/views/customers/show.js  (1ms)  (pid 8292)
+Compiled application.js  (25ms)  (pid 8292)
+Completed 200 OK in 365ms (Views: 344.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/views/customers/show.js - 200 OK (26ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 13:09:12 +0800
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (169.0ms)
+Compiled app/templates/customers/index.js  (1ms)  (pid 8292)
+Compiled app/views/customers/form.js  (0ms)  (pid 8292)
+Compiled app/templates/customers/form.js  (1ms)  (pid 8292)
+Compiled application.js  (109ms)  (pid 8292)
+Completed 200 OK in 474ms (Views: 459.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/views/customers/form.js - 200 OK (9ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/templates/customers/form.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/templates/customers/index.js - 200 OK (9ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:48 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:33:49 +0800
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (172.0ms)
+Compiled app/views/customers/form.js  (0ms)  (pid 8292)
+Compiled app/templates/customers/index.js  (1ms)  (pid 8292)
+Compiled application.js  (28ms)  (pid 8292)
+Completed 200 OK in 411ms (Views: 396.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/models/customer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/views/customers/form.js - 200 OK (11ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/templates/customers/index.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:40 +0800
+Served asset /application.js - 304 Not Modified (55ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (153.0ms)
+Completed 200 OK in 209ms (Views: 196.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:45 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:46 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:34:51 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (4.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (172.0ms)
+Completed 200 OK in 215ms (Views: 196.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:34:52 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (157.0ms)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8292)
+Compiled application.js  (27ms)  (pid 8292)
+Completed 200 OK in 382ms (Views: 369.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/templates/customers/index.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:04 +0800
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (4.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (186.0ms)
+Completed 200 OK in 234ms (Views: 211.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /customers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:07 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (173.0ms)
+Compiled app/views/customers/form.js  (0ms)  (pid 8292)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8292)
+Compiled application.js  (27ms)  (pid 8292)
+Completed 200 OK in 414ms (Views: 394.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/route.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/views/customers/form.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:56 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:57 +0800
+Served asset /app/templates/customers/index.js - 200 OK (9ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:57 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:57 +0800
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (3.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (152.0ms)
+Completed 200 OK in 197ms (Views: 178.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /vendor/ember.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/models/customer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:35:59 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:36:18 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (176.0ms)
+Compiled app/views/customers/form.js  (0ms)  (pid 8292)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8292)
+Compiled application.js  (32ms)  (pid 8292)
+Completed 200 OK in 425ms (Views: 404.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/views/customers/form.js - 200 OK (8ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/templates/customers/index.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:19 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:36:20 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (2.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (173.0ms)
+Completed 200 OK in 215ms (Views: 199.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:21 +0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (3.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (162.0ms)
+Completed 200 OK in 205ms (Views: 188.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/views/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:36:22 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (4.0ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (147.0ms)
+Compiled app/views/customers/form.js  (0ms)  (pid 8292)
+Compiled app/templates/customers/index.js  (0ms)  (pid 8292)
+Compiled application.js  (26ms)  (pid 8292)
+Completed 200 OK in 386ms (Views: 368.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:18 +0800
+Served asset /vendor/ember.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/views/customers/form.js - 200 OK (4ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /app/templates/customers/index.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:38:19 +0800
+Served asset /application.js - 304 Not Modified (44ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (2.0ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (158.0ms)
+Compiled app/views/customers/form.js  (1ms)  (pid 8292)
+Compiled application.js  (26ms)  (pid 8292)
+Completed 200 OK in 367ms (Views: 353.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/ember.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /vendor/ember.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/ember-rest.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /vendor/ember-rest.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/app.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/route.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/route.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/models/customer.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/models/customer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/controllers/customers.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/controllers/customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/views/customers/form.js - 200 OK (47ms)
+
+
+Started GET "/assets/app/views/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/views/customers/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/views/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/views/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/helpers/forms.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/helpers/forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/form.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/templates/customers/form.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app/templates/customers/index.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/templates/customers/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app/templates/customers/show.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /app/templates/customers/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-30 15:40:44 +0800
+Served asset /application.js - 304 Not Modified (56ms)

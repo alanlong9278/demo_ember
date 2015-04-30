@@ -4,6 +4,17 @@ App.IndexCustomersView = Ember.View.extend({
 
     showDetail: function() {
         this.set('isShowDetail', true);
+        var customer = this.get("customer");
+        this.set('customer', customer);
+        customer.findResource()
+            .done( function() {
+                this.transitionTo('show');
+            });
+
+    },
+    hideDetail: function() {
+        this.set('isShowDetail', false);
+
 
     }
 });

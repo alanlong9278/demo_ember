@@ -1,49 +1,52 @@
 
 <div id = "customer_detail">
-
-    <p class="lead">
-        <span>CustomerID: </span>
-        <span>{{customer.CustomerID}}</span>
-    </p>
-    <p class="lead">
-        <span>CompanyName: </span>
-        <span>{{customer.CompanyName}}</span>
-    </p>
-    <p class="lead">
-        <span>ContactName: </span>
-        <span>{{customer.ContactName}}</span>
-    </p>
-    <p class="lead">
-        <span>ContactTitle: </span>
-        <span>{{customer.ContactTitle}}</span>
-    </p>
-    <p class="lead">
-        <span>Address: </span>
-        <span>{{customer.Address}}</span>
-    </p>
-    <p class="lead">
-        <span>City: </span>
-        <span>{{customer.City}}</span>
-    </p>
-    <p class="lead">
-        <span>Region: </span>
-        <span>{{customer.Region}}</span>
-    </p>
-    <p class="lead">
-        <span>PostalCode</span>
-        <span>{{customer.PostalCode}}</span>
-    </p>
-    <p class="lead">
-        <span>Country: </span>
-        <span>{{customer.Country}}</span>
-    </p>
-    <p class="lead">
-        <span>Phone: </span>
-        <span>{{customer.Phone}}</span>
-    </p>
-    <p class="lead">
-        <span>Fax: </span>
-        <span>{{customer.Fax}}</span>
-    </p>
-
+    <table id="detail">
+    <tr class="lead">
+        <td class="title">CustomerID: </td>
+        <td>{{customer.CustomerID}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">CompanyName: </td>
+        <td>{{customer.CompanyName}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">ContactName: </td>
+        <td>{{customer.ContactName}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">ContactTitle: </td>
+        <td>{{customer.ContactTitle}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">Address: </td>
+        <td>{{customer.Address}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">City: </td>
+        <td>{{customer.City}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">Region: </td>
+        <td>{{customer.Region}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">PostalCode</td>
+        <td>{{customer.PostalCode}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">Country: </td>
+        <td>{{customer.Country}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">Phone: </td>
+        <td>{{customer.Phone}}</td>
+    </tr>
+    <tr class="lead">
+        <td class="title">Fax: </td>
+        <td>{{customer.Fax}}</td>
+    </tr>
+    </table>
+    <div style="margin-left:200px; font-size:20px; margin-top:10px;">
+        <a href="#" {{action cancelDetail}} >Back</>
+    </div>
 </div>

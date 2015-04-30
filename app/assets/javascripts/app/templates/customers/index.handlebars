@@ -7,24 +7,17 @@
                 <th>CompanyName</th>
             </tr>
           </thead>
+          <tbody>
            {{#each customers}}
-              <tr>
-                  <td>
-                      {{this.CustomerID}}
-                  </td>
-                  <td>
-                      {{this.CompanyName}}
-                  </td>
-                  <td>
-
-
-                  </td>
-              <tr>
+                {{view App.FormCustomerView customerBinding = "this"}}
             {{/each}}
+          </tbody>
         </table>
 
       </div>
       <div class="col-md-8">
-        {{view App.ShowCustomerView customerBinding = "customers"}}
+        {{#if isShowDetail}}
+            {{view App.ShowCustomerView customerBinding = customer}}
+        {{/if}}
       </div>
     </div>
